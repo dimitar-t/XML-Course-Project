@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reservoirInfo SYSTEM "reservoirs.dtd">
+<!DOCTYPE reservoirInfo SYSTEM "reservoirs.dtd"[
+
+<!ENTITY vucha "vucha.jpg">
+<!ENTITY dospat "dospat.jpg">
+<!ENTITY batak "batak.jpg">
+<!ENTITY ticha "ticha.jpg">
+<!ENTITY conevo "conevo.jpg">
+<!ENTITY bebresh "bebresh.jpg">
+<!ENTITY yasna_polyana "yasna_polyana.jpg">
+
+]>
 <reservoirInfo>
         <regions>
                 <region id="reg_1" name="Северозапад"></region>
@@ -9,8 +19,8 @@
         </regions>
         
         <rivers>
-                <river id="riv_1" name="Въча"></river>
-                <river id="riv_2" name="Камчия"></river>
+                <river id="riv_1" name="Въча" />
+                <river id="riv_2" name="Камчия" />
                 <river id="riv_3" name="Доспат" />
                 <river id="riv_4" name="Мътница" />
                 <river id="riv_5" name="Луда Камчия" />
@@ -18,7 +28,7 @@
                 <river id="riv_7" name="Дяволска" />
         </rivers>
         <reservoirs>
-                <reservoir id="res_1" regionId="reg_3" riverId="riv_1" photo="vucha">
+                <reservoir id="res_1" regionId="reg_3" riverId="riv_1" photo="&vucha;">
                         <name>Въча</name>
                         <depth>160</depth>
                         <damHeight>144.5</damHeight>
@@ -30,7 +40,7 @@
                         <area>5</area>
                         <water_capacity>226 120 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_2" regionId="reg_3" riverId="riv_3" photo="dospat">
+                <reservoir id="res_2" regionId="reg_3" riverId="riv_3" photo="&dospat;">
                         <name>Доспат</name>
                         <depth>60</depth>
                         <damHeight>60.5</damHeight>
@@ -42,7 +52,7 @@
                         <area>18,3</area>
                         <water_capacity>449 220 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_3" regionId="reg_3" riverId="riv_4" photo="batak">
+                <reservoir id="res_3" regionId="reg_3" riverId="riv_4" photo="&batak;">
                         <name>Батак</name>
                         <depth>35</depth>
                         <damHeight>35</damHeight>
@@ -54,7 +64,7 @@
                         <area>22</area>
                         <water_capacity>310 000 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_4" regionId="reg_2" riverId="riv_2" photo="ticha">
+                <reservoir id="res_4" regionId="reg_2" riverId="riv_2" photo="&ticha;">
                         <name>Тича</name>
                         <depth>39.9</depth>
                         <damHeight>55.5</damHeight>
@@ -66,7 +76,7 @@
                         <area>18.7</area>
                         <water_capacity>311 000 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_5" regionId="reg_2" riverId="riv_5" photo="conevo">
+                <reservoir id="res_5" regionId="reg_2" riverId="riv_5" photo="&conevo;">
                         <name>Цонево</name>
                         <depth>39</depth>
                         <damHeight>39</damHeight>
@@ -78,7 +88,7 @@
                         <area>17</area>
                         <water_capacity>160 000 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_6" regionId="reg_1" riverId="riv_6" photo="bebresh">
+                <reservoir id="res_6" regionId="reg_1" riverId="riv_6" photo="&bebresh;">
                         <name>Бебреш</name>
                         <depth>35</depth>
                         <damHeight>48</damHeight>
@@ -90,7 +100,7 @@
                         <area>17</area>
                         <water_capacity>14 000 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_7" regionId="reg_4" riverId="riv_7" photo="yasna_polyana">
+                <reservoir id="res_7" regionId="reg_4" riverId="riv_7" photo="&yasna_polyana;">
                         <name>Ясна поляна</name>
                         <depth>80</depth>
                         <damHeight>49</damHeight>
