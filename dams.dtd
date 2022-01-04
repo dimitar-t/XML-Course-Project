@@ -1,0 +1,36 @@
+<!ELEMENT reservoirInfo ((regions, rivers, reservoirs))>
+<!ELEMENT regions ((region+))>
+<!ELEMENT region EMPTY>
+<!ATTLIST region
+		 id ID #REQUIRED
+		 name CDATA #REQUIRED>
+<!ELEMENT rivers ((river+))>
+<!ELEMENT memberOfEU EMPTY>
+<!ATTLIST memberOfEU 
+		 id ID #REQUIRED
+		 name CDATA #REQUIRED>
+<!ELEMENT reservoirs ((reservoir+))>
+<!ELEMENT reservoir (name, depth, damHeight, length, coordinates, size, fish)>
+<!ATTLIST reservoir 
+		 id CDATA #REQUIRED
+		 regionId IDREF #REQUIRED
+		 riverId IDREF #REQUIRED
+		 photo ENTITIES #IMPLIED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT depth (#PCDATA)>
+<!ELEMENT damHeight (#PCDATA)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT coordinates (latitude, longitude)>
+<!ELEMENT latitude (#PCDATA)>
+<!ELEMENT longitude (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT fish (#PCDATA)>
+<!NOTATION JPG SYSTEM "image/jpeg">
+<!ENTITY qzovir_1 SYSTEM "qzovir_1.jpg" NDATA JPG>
+<!ENTITY qzovir_2 SYSTEM "qzovir_2.jpg" NDATA JPG>
+<!ENTITY qzovir_3 SYSTEM "qzovir_3.jpg" NDATA JPG>
+<!ENTITY qzovir_4 SYSTEM "qzovir_4.jpg" NDATA JPG>
+<!ENTITY qzovir_5 SYSTEM "qzovir_5.jpg" NDATA JPG>
+<!ENTITY qzovir_6 SYSTEM "qzovir_6.jpg" NDATA JPG>
+<!ENTITY qzovir_7 SYSTEM "qzovir_7.jpg" NDATA JPG>
+<!ENTITY qzovir_8 SYSTEM "qzovir_8.jpg" NDATA JPG>
