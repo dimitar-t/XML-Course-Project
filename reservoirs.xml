@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reservoirInfo SYSTEM "dams.dtd">
-
+<!DOCTYPE reservoirInfo SYSTEM "reservoirs.dtd">
 <reservoirInfo>
         <regions>
-                <region id="1" name="Северозапад"></region>
-                <region id="2" name="Североизток"></region>
-                <region id="3" name="Югозапад"></region>
-                <region id="4" name="Югоизток"></region>
+                <region id="reg_1" name="Северозапад"></region>
+                <region id="reg_2" name="Североизток"></region>
+                <region id="reg_3" name="Югозапад"></region>
+                <region id="reg_4" name="Югоизток"></region>
         </regions>
         
         <rivers>
-                <river id="1" name="Тунджа"></river>
-                <river id="2" name="Въча"></river>
-                <river id="3" name="Луда Камчия"></river>
+                <river id="riv_1" name="Тунджа"></river>
+                <river id="riv_2" name="Въча"></river>
+                <river id="riv_3" name="Луда Камчия"></river>
         </rivers>
         <reservoirs>
-                <reservoir id="1" regionId="3" riverId="2" photo="">
+                <reservoir id="res_1" regionId="reg_3" riverId="riv_2">
                         <name>Въча</name>
                         <depth>160</depth>
                         <damHeight>144.5</damHeight>
                         <length>10</length>
                         <coordinates>
-                                <longitute>24.3625031</longitute>
                                 <latitude>41.8989633</latitude>
+                                <longitude>24.3625031</longitude>
                         </coordinates>
                         <area>5</area>
                         <fish>бял амур, платика, бяла риба, бабушка, каракуда, кефал, костур</fish>
-                <reservoir>
+                </reservoir>
         </reservoirs>
 </reservoirInfo>
