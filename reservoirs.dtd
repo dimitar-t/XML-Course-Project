@@ -26,10 +26,10 @@
 <!ELEMENT area (#PCDATA)>
 <!ELEMENT water_capacity (#PCDATA)>
 <!NOTATION JPG SYSTEM "image/jpeg">
-<!ENTITY qzovir_1 SYSTEM "qzovir_1.jpg" NDATA JPG>
-<!ENTITY qzovir_2 SYSTEM "qzovir_2.jpg" NDATA JPG>
-<!ENTITY qzovir_3 SYSTEM "qzovir_3.jpg" NDATA JPG>
-<!ENTITY qzovir_4 SYSTEM "qzovir_4.jpg" NDATA JPG>
+<!ENTITY vucha SYSTEM "vucha.jpg" NDATA JPG>
+<!ENTITY dospat SYSTEM "dospat.jpg" NDATA JPG>
+<!ENTITY batak SYSTEM "batak.jpg" NDATA JPG>
+<!ENTITY ticha SYSTEM "ticha.jpg" NDATA JPG>
 <!ENTITY qzovir_5 SYSTEM "qzovir_5.jpg" NDATA JPG>
 <!ENTITY qzovir_6 SYSTEM "qzovir_6.jpg" NDATA JPG>
 <!ENTITY qzovir_7 SYSTEM "qzovir_7.jpg" NDATA JPG>

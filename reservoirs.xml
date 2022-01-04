@@ -16,7 +16,7 @@
                 <river id="riv_5" name="Мътница" />
         </rivers>
         <reservoirs>
-                <reservoir id="res_1" regionId="reg_3" riverId="riv_2">
+                <reservoir id="res_1" regionId="reg_3" riverId="riv_2" photo="vucha">
                         <name>Въча</name>
                         <depth>160</depth>
                         <damHeight>144.5</damHeight>
@@ -28,7 +28,7 @@
                         <area>5</area>
                         <water_capacity>226 120 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_2" regionId="reg_3" riverId="riv_4">
+                <reservoir id="res_2" regionId="reg_3" riverId="riv_4" photo="dospat">
                         <name>Доспат</name>
                         <depth>60</depth>
                         <damHeight>60.5</damHeight>
@@ -40,7 +40,7 @@
                         <area>18,3</area>
                         <water_capacity>449 220 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_3" regionId="reg_3" riverId="riv_5">
+                <reservoir id="res_3" regionId="reg_3" riverId="riv_5" photo="batak">
                         <name>Батак</name>
                         <depth>35</depth>
                         <damHeight>35</damHeight>
@@ -52,7 +52,7 @@
                         <area>22</area>
                         <water_capacity>310 000 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_4" regionId="reg_2" riverId="riv_3">
+                <reservoir id="res_4" regionId="reg_2" riverId="riv_3" photo="ticha">
                         <name>Тича</name>
                         <depth>39.9</depth>
                         <damHeight>55.5</damHeight>
