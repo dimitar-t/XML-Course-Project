@@ -10,7 +10,7 @@
 		 id ID #REQUIRED
 		 name CDATA #REQUIRED>
 <!ELEMENT reservoirs ((reservoir+))>
-<!ELEMENT reservoir (name, depth, damHeight, length, coordinates, area, fish)>
+<!ELEMENT reservoir (name, depth, damHeight, length, coordinates, area, water_capacity)>
 <!ATTLIST reservoir 
 		 id ID #REQUIRED
 		 regionId IDREF #REQUIRED
@@ -24,7 +24,7 @@
 <!ELEMENT latitude (#PCDATA)>
 <!ELEMENT longitude (#PCDATA)>
 <!ELEMENT area (#PCDATA)>
-<!ELEMENT fish (#PCDATA)>
+<!ELEMENT water_capacity (#PCDATA)>
 <!NOTATION JPG SYSTEM "image/jpeg">
 <!ENTITY qzovir_1 SYSTEM "qzovir_1.jpg" NDATA JPG>
 <!ENTITY qzovir_2 SYSTEM "qzovir_2.jpg" NDATA JPG>
