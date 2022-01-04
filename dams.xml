@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reservoirInfo SYSTEM "dams.dtd">
+
+<reservoirInfo>
+        <regions>
+                <region id="1" name="Северозапад"></region>
+                <region id="2" name="Североизток"></region>
+                <region id="3" name="Югозапад"></region>
+                <region id="4" name="Югоизток"></region>
+        </regions>
+        
+        <rivers>
+                <river id="1" name="Тунджа"></river>
+                <river id="2" name="Въча"></river>
+                <river id="3" name="Луда Камчия"></river>
+        </rivers>
+        <reservoirs>
+                <reservoir id="1" regionId="3" riverId="2" photo="">
+                        <name>Въча</name>
+                        <depth>160</depth>
+                        <damHeight>144.5</damHeight>
+                        <length>10</length>
+                        <coordinates>
+                                <longitute>24.3625031</longitute>
+                                <latitude>41.8989633</latitude>
+                        </coordinates>
+                        <area>5</area>
+                        <fish>бял амур, платика, бяла риба, бабушка, каракуда, кефал, костур</fish>
+                <reservoir>
+        </reservoirs>
+</reservoirInfo>
