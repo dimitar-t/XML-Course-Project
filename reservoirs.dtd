@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <!ELEMENT reservoirInfo ((regions, rivers, reservoirs))>
 <!ELEMENT regions ((region+))>
 <!ELEMENT region EMPTY>
