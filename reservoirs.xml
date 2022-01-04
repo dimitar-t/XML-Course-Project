@@ -9,14 +9,16 @@
         </regions>
         
         <rivers>
-                <river id="riv_1" name="Тунджа"></river>
-                <river id="riv_2" name="Въча"></river>
-                <river id="riv_3" name="Камчия"></river>
-                <river id="riv_4" name="Доспат" />
-                <river id="riv_5" name="Мътница" />
+                <river id="riv_1" name="Въча"></river>
+                <river id="riv_2" name="Камчия"></river>
+                <river id="riv_3" name="Доспат" />
+                <river id="riv_4" name="Мътница" />
+                <river id="riv_5" name="Луда Камчия" />
+                <river id="riv_6" name="Бебреш" />
+                <river id="riv_7" name="Дяволска" />
         </rivers>
         <reservoirs>
-                <reservoir id="res_1" regionId="reg_3" riverId="riv_2" photo="vucha">
+                <reservoir id="res_1" regionId="reg_3" riverId="riv_1" photo="vucha">
                         <name>Въча</name>
                         <depth>160</depth>
                         <damHeight>144.5</damHeight>
@@ -28,7 +30,7 @@
                         <area>5</area>
                         <water_capacity>226 120 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_2" regionId="reg_3" riverId="riv_4" photo="dospat">
+                <reservoir id="res_2" regionId="reg_3" riverId="riv_3" photo="dospat">
                         <name>Доспат</name>
                         <depth>60</depth>
                         <damHeight>60.5</damHeight>
@@ -40,7 +42,7 @@
                         <area>18,3</area>
                         <water_capacity>449 220 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_3" regionId="reg_3" riverId="riv_5" photo="batak">
+                <reservoir id="res_3" regionId="reg_3" riverId="riv_4" photo="batak">
                         <name>Батак</name>
                         <depth>35</depth>
                         <damHeight>35</damHeight>
@@ -52,7 +54,7 @@
                         <area>22</area>
                         <water_capacity>310 000 000</water_capacity>
                 </reservoir>
-                <reservoir id="res_4" regionId="reg_2" riverId="riv_3" photo="ticha">
+                <reservoir id="res_4" regionId="reg_2" riverId="riv_2" photo="ticha">
                         <name>Тича</name>
                         <depth>39.9</depth>
                         <damHeight>55.5</damHeight>
@@ -63,6 +65,42 @@
                         </coordinates>
                         <area>18.7</area>
                         <water_capacity>311 000 000</water_capacity>
+                </reservoir>
+                <reservoir id="res_5" regionId="reg_2" riverId="riv_5" photo="conevo">
+                        <name>Цонево</name>
+                        <depth>39</depth>
+                        <damHeight>39</damHeight>
+                        <length>30</length>
+                        <coordinates>
+                                <latitude>43.026425</latitude>
+                                <longitude>27.420425</longitude>
+                        </coordinates>
+                        <area>17</area>
+                        <water_capacity>160 000 000</water_capacity>
+                </reservoir>
+                <reservoir id="res_6" regionId="reg_1" riverId="riv_6" photo="bebresh">
+                        <name>Бебреш</name>
+                        <depth>35</depth>
+                        <damHeight>48</damHeight>
+                        <length>4</length>
+                        <coordinates>
+                                <latitude>43.026425</latitude>
+                                <longitude>27.420425</longitude>
+                        </coordinates>
+                        <area>17</area>
+                        <water_capacity>14 000 000</water_capacity>
+                </reservoir>
+                <reservoir id="res_7" regionId="reg_4" riverId="riv_7" photo="yasna_polyana">
+                        <name>Ясна поляна</name>
+                        <depth>80</depth>
+                        <damHeight>49</damHeight>
+                        <length>5</length>
+                        <coordinates>
+                                <latitude>42.2429771</latitude>
+                                <longitude>27.5633473</longitude>
+                        </coordinates>
+                        <area>1.8</area>
+                        <water_capacity>35 300 000</water_capacity>
                 </reservoir>
         </reservoirs>
 </reservoirInfo>
