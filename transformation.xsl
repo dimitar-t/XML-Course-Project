@@ -14,8 +14,8 @@
             <fo:page-sequence master-name="PageMaster" master-reference="PageMaster">
                 <fo:flow flow-name="xsl-region-body" >
                     <fo:block>
-                        ti pa si govno
                         <fo:table>
+                            <fo:table-column column-width="25mm"/>
                             <fo:table-column column-width="25mm"/>
                             <fo:table-column column-width="25mm"/>
                             <fo:table-column column-width="25mm"/>
@@ -46,6 +46,9 @@
                                     </fo:table-cell>
                                     <fo:table-cell>
                                         <fo:block font-weight="bold">Water capacity</fo:block>
+                                    </fo:table-cell>
+                                    <fo:table-cell>
+                                        <fo:block font-weight="bold">Photo</fo:block>
                                     </fo:table-cell>
                                 </fo:table-row>
                             </fo:table-header>
@@ -105,6 +108,17 @@
     <xsl:template match="water_capacity">
         <fo:table-cell>
             <fo:block><xsl:apply-templates /></fo:block>
+        </fo:table-cell>
+        <fo:table-cell>
+            <xsl:variable name="url">
+                <xsl:value-of select="./parent::reservoir/@photo"/>.jpg
+            </xsl:variable>
+            <!-- <xsl:value-of select="./parent::reservoir/@photo" /> това изважда името на снимката, но не мога да го сложа като хората в url функцията, опитвах се с тоя variable отгоре ама не стана. тооо и като хардкодна името, пак не става :) -->
+            <!-- работи с batak.jpg, нооо нещо с $url не става -->
+            <fo:block>
+                <!-- <xsl:value-of select="$url"/> -->
+                <fo:external-graphic src="$url" content-height="8mm" />
+            </fo:block>
         </fo:table-cell>
     </xsl:template>
 </xsl:stylesheet>
