@@ -25,3 +25,12 @@
 <!ELEMENT longitude (#PCDATA)>
 <!ELEMENT area (#PCDATA)>
 <!ELEMENT water_capacity (#PCDATA)>
+
+<!NOTATION JPG SYSTEM "image/jpeg">
+<!ENTITY vucha "vucha.jpg">
+<!ENTITY dospat "dospat.jpg">
+<!ENTITY batak "batak.jpg">
+<!ENTITY ticha "ticha.jpg">
+<!ENTITY conevo "conevo.jpg">
+<!ENTITY bebresh "bebresh.jpg">
+<!ENTITY yasna_polyana "yasna_polyana.jpg">
