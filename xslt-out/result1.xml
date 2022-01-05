@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+   <fo:layout-master-set>
+      <fo:simple-page-master page-height="297mm" page-width="210mm" margin="5mm 25mm 5mm 25mm" master-name="PageMaster">
+         <fo:region-body margin="20mm 0mm 20mm 0mm"/>
+      </fo:simple-page-master>
+   </fo:layout-master-set>
+   <fo:page-sequence master-name="PageMaster">
+      <fo:flow flow-name="xsl-region-body">
+         <fo:block>
+            <fo:block>Въча</fo:block>
+            <fo:block>160</fo:block>
+            <fo:block>144.5</fo:block>
+            <fo:block>10</fo:block>
+            <fo:block>
+                                41.8989633
+                                24.3625031
+                        </fo:block>
+            <fo:block>5</fo:block>
+            <fo:block>226 120 000</fo:block>
+            <fo:block>Доспат</fo:block>
+            <fo:block>60</fo:block>
+            <fo:block>60.5</fo:block>
+            <fo:block>19</fo:block>
+            <fo:block>
+                                41.691940
+                                24.092375
+                        </fo:block>
+            <fo:block>18,3</fo:block>
+            <fo:block>449 220 000</fo:block>
+            <fo:block>Батак</fo:block>
+            <fo:block>35</fo:block>
+            <fo:block>35</fo:block>
+            <fo:block>10</fo:block>
+            <fo:block>
+                                41.966448
+                                24.188376
+                        </fo:block>
+            <fo:block>22</fo:block>
+            <fo:block>310 000 000</fo:block>
+            <fo:block>Тича</fo:block>
+            <fo:block>39.9</fo:block>
+            <fo:block>55.5</fo:block>
+            <fo:block>14</fo:block>
+            <fo:block>
+                                43.071286
+                                26.782827
+                        </fo:block>
+            <fo:block>18.7</fo:block>
+            <fo:block>311 000 000</fo:block>
+            <fo:block>Цонево</fo:block>
+            <fo:block>39</fo:block>
+            <fo:block>39</fo:block>
+            <fo:block>30</fo:block>
+            <fo:block>
+                                43.026425
+                                27.420425
+                        </fo:block>
+            <fo:block>17</fo:block>
+            <fo:block>160 000 000</fo:block>
+            <fo:block>Бебреш</fo:block>
+            <fo:block>35</fo:block>
+            <fo:block>48</fo:block>
+            <fo:block>4</fo:block>
+            <fo:block>
+                                43.026425
+                                27.420425
+                        </fo:block>
+            <fo:block>17</fo:block>
+            <fo:block>14 000 000</fo:block>
+            <fo:block>Ясна поляна</fo:block>
+            <fo:block>80</fo:block>
+            <fo:block>49</fo:block>
+            <fo:block>5</fo:block>
+            <fo:block>
+                                42.2429771
+                                27.5633473
+                        </fo:block>
+            <fo:block>1.8</fo:block>
+            <fo:block>35 300 000</fo:block>
+         </fo:block>
+      </fo:flow>
+   </fo:page-sequence>
+</fo:root>

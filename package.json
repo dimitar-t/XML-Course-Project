@@ -1,0 +1,23 @@
+{
+  "name": "XML-Course-Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitar-t/XML-Course-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimitar-t/XML-Course-Project/issues"
+  },
+  "homepage": "https://github.com/dimitar-t/XML-Course-Project#readme",
+  "devDependencies": {
+    "xslt3": "^2.3.0"
+  }
+}

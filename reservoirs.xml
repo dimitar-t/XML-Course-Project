@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reservoirInfo SYSTEM "reservoirs.dtd">
+<!-- <!DOCTYPE reservoirInfo SYSTEM "reservoirs.dtd"> -->
 <reservoirInfo>
         <regions>
                 <region id="reg_1" name="Северозапад"></region>
