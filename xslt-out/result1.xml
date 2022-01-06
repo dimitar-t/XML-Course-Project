@@ -73,7 +73,7 @@
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>
-                           <fo:external-graphic src="vucha.jpg" content-height="8mm"/>
+                           <fo:external-graphic src="./vucha.jpg" content-height="8mm"/>
                         </fo:block>
                      </fo:table-cell>
                   </fo:table-row>
@@ -104,7 +104,7 @@
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>
-                           <fo:external-graphic src="dospat.jpg" content-height="8mm"/>
+                           <fo:external-graphic src="../dospat.jpg" content-height="8mm"/>
                         </fo:block>
                      </fo:table-cell>
                   </fo:table-row>
