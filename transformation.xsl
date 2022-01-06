@@ -110,14 +110,9 @@
             <fo:block><xsl:apply-templates /></fo:block>
         </fo:table-cell>
         <fo:table-cell>
-            <xsl:variable name="url">
-                <xsl:value-of select="./parent::reservoir/@photo"/>.jpg
-            </xsl:variable>
-            <!-- <xsl:value-of select="./parent::reservoir/@photo" /> това изважда името на снимката, но не мога да го сложа като хората в url функцията, опитвах се с тоя variable отгоре ама не стана. тооо и като хардкодна името, пак не става :) -->
-            <!-- работи с batak.jpg, нооо нещо с $url не става -->
+            <xsl:variable name="url" select="unparsed-entity-uri(./@photo)"/>
             <fo:block>
-                <!-- <xsl:value-of select="$url"/> -->
-                <fo:external-graphic src="$url" content-height="8mm" />
+                <fo:external-graphic src="{$url}" content-height="8mm" />
             </fo:block>
         </fo:table-cell>
     </xsl:template>
