@@ -48,7 +48,7 @@
                <fo:table-body>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>Въча</fo:block>
+                        <fo:block>Vucha</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>160</fo:block>
@@ -73,13 +73,13 @@
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>
-                           <fo:external-graphic src="./vucha.jpg" content-height="8mm"/>
+                           <fo:external-graphic src="../vucha.jpg" content-height="8mm"/>
                         </fo:block>
                      </fo:table-cell>
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>Доспат</fo:block>
+                        <fo:block>Dospat</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>60</fo:block>
@@ -110,7 +110,7 @@
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>Батак</fo:block>
+                        <fo:block>Batak</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>35</fo:block>
@@ -135,13 +135,13 @@
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>
-                           <fo:external-graphic src="batak.jpg" content-height="8mm"/>
+                           <fo:external-graphic src="../batak.jpg" content-height="8mm"/>
                         </fo:block>
                      </fo:table-cell>
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>Тича</fo:block>
+                        <fo:block>Ticha</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>39.9</fo:block>
@@ -166,13 +166,13 @@
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>
-                           <fo:external-graphic src="ticha.jpg" content-height="8mm"/>
+                           <fo:external-graphic src="../ticha.jpg" content-height="8mm"/>
                         </fo:block>
                      </fo:table-cell>
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>Цонево</fo:block>
+                        <fo:block>Conevo</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>39</fo:block>
@@ -197,13 +197,13 @@
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>
-                           <fo:external-graphic src="conevo.jpg" content-height="8mm"/>
+                           <fo:external-graphic src="../conevo.jpg" content-height="8mm"/>
                         </fo:block>
                      </fo:table-cell>
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>Бебреш</fo:block>
+                        <fo:block>Bebresh</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>35</fo:block>
@@ -228,13 +228,13 @@
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>
-                           <fo:external-graphic src="bebresh.jpg" content-height="8mm"/>
+                           <fo:external-graphic src="../bebresh.jpg" content-height="8mm"/>
                         </fo:block>
                      </fo:table-cell>
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>Ясна поляна</fo:block>
+                        <fo:block>Yasna polyana</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>80</fo:block>
@@ -259,7 +259,7 @@
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>
-                           <fo:external-graphic src="yasna_polyana.jpg" content-height="8mm"/>
+                           <fo:external-graphic src="../yasna_polyana.jpg" content-height="8mm"/>
                         </fo:block>
                      </fo:table-cell>
                   </fo:table-row>
