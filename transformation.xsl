@@ -110,8 +110,8 @@
             <fo:block><xsl:apply-templates /></fo:block>
         </fo:table-cell>
         <fo:table-cell>
-            <xsl:variable name="url" select="unparsed-entity-uri(./@photo)"/>
-            <fo:block>
+            <xsl:variable name="url"><xsl:value-of select="./parent::reservoir/@photo"/>.jpg</xsl:variable>
+            <fo:block>                
                 <fo:external-graphic src="{$url}" content-height="8mm" />
             </fo:block>
         </fo:table-cell>

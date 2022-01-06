@@ -8,8 +8,8 @@
    <fo:page-sequence master-name="PageMaster" master-reference="PageMaster">
       <fo:flow flow-name="xsl-region-body">
          <fo:block>
-                        ti pa si govno
-                        <fo:table>
+            <fo:table>
+               <fo:table-column column-width="25mm"/>
                <fo:table-column column-width="25mm"/>
                <fo:table-column column-width="25mm"/>
                <fo:table-column column-width="25mm"/>
@@ -40,12 +40,15 @@
                      <fo:table-cell>
                         <fo:block font-weight="bold">Water capacity</fo:block>
                      </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Photo</fo:block>
+                     </fo:table-cell>
                   </fo:table-row>
                </fo:table-header>
                <fo:table-body>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>batakВъча</fo:block>
+                        <fo:block>Въча</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>160</fo:block>
@@ -68,10 +71,15 @@
                      <fo:table-cell>
                         <fo:block>226 120 000</fo:block>
                      </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block>
+                           <fo:external-graphic src="vucha.jpg" content-height="8mm"/>
+                        </fo:block>
+                     </fo:table-cell>
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>dospatДоспат</fo:block>
+                        <fo:block>Доспат</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>60</fo:block>
@@ -94,10 +102,15 @@
                      <fo:table-cell>
                         <fo:block>449 220 000</fo:block>
                      </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block>
+                           <fo:external-graphic src="dospat.jpg" content-height="8mm"/>
+                        </fo:block>
+                     </fo:table-cell>
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>batakБатак</fo:block>
+                        <fo:block>Батак</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>35</fo:block>
@@ -120,10 +133,15 @@
                      <fo:table-cell>
                         <fo:block>310 000 000</fo:block>
                      </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block>
+                           <fo:external-graphic src="batak.jpg" content-height="8mm"/>
+                        </fo:block>
+                     </fo:table-cell>
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>tichaТича</fo:block>
+                        <fo:block>Тича</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>39.9</fo:block>
@@ -146,10 +164,15 @@
                      <fo:table-cell>
                         <fo:block>311 000 000</fo:block>
                      </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block>
+                           <fo:external-graphic src="ticha.jpg" content-height="8mm"/>
+                        </fo:block>
+                     </fo:table-cell>
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>conevoЦонево</fo:block>
+                        <fo:block>Цонево</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>39</fo:block>
@@ -172,10 +195,15 @@
                      <fo:table-cell>
                         <fo:block>160 000 000</fo:block>
                      </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block>
+                           <fo:external-graphic src="conevo.jpg" content-height="8mm"/>
+                        </fo:block>
+                     </fo:table-cell>
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>bebreshБебреш</fo:block>
+                        <fo:block>Бебреш</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>35</fo:block>
@@ -198,10 +226,15 @@
                      <fo:table-cell>
                         <fo:block>14 000 000</fo:block>
                      </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block>
+                           <fo:external-graphic src="bebresh.jpg" content-height="8mm"/>
+                        </fo:block>
+                     </fo:table-cell>
                   </fo:table-row>
                   <fo:table-row>
                      <fo:table-cell>
-                        <fo:block>yasna_polyanaЯсна поляна</fo:block>
+                        <fo:block>Ясна поляна</fo:block>
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>80</fo:block>
@@ -223,6 +256,11 @@
                      </fo:table-cell>
                      <fo:table-cell>
                         <fo:block>35 300 000</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block>
+                           <fo:external-graphic src="yasna_polyana.jpg" content-height="8mm"/>
+                        </fo:block>
                      </fo:table-cell>
                   </fo:table-row>
                </fo:table-body>
